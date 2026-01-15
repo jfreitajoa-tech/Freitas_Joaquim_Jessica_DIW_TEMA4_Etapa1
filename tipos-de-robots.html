@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tipos de robots</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <!-- ACCESIBILIDAD: salto al contenido -->
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <!-- Cabecera de la web -->
+    <header class="header">
+        <img class="header__logo" src="img/isologo.png" alt="Logotipo del sitio">
+    </header>
+
+    <!-- Menú de la página -->
+    <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a class="nav__link" href="index.html">ARTÍCULO: ROBOTS EN LA EDUCACIÓN</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link nav__link--active" href="tipos-de-robots.html">TIPOS DE ROBOTS</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="robots-de-ficcion.html">ROBOTS DE FICCIÓN</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Contenido -->
+    <main class="main" id="contenido">
+        <div class="container">
+
+            <article class="page">
+                <header class="page__header">
+                    <h1 class="page__title">Tipos de robots</h1>
+                </header>
+
+                <!-- CITA -->
+                <figure class="quote">
+                    <blockquote class="quote__text">
+                        Si fuese posible crear un robot capaz de ser funcionario civil, creo que haríamos un gran bien,
+                        ya que las Leyes de la Robótica le impedirían dañar a un ser humano, lo incapacitarían para la
+                        tiranía,
+                        la corrupción, la estupidez, el prejuicio.
+                    </blockquote>
+                    <figcaption class="quote__author">Isaac Asimov</figcaption>
+                </figure>
+
+                <!-- LISTA DE TIPOS DE ROBOTS -->
+                <section class="page__section" aria-labelledby="clasificacion-robots">
+                    <h2 id="clasificacion-robots" class="visually-hidden">
+                        Clasificación de tipos de robots
+                    </h2>
+
+                    <ul class="robots-list">
+                        <li class="robots-list__item robots-list__item--icon">
+                            <strong>Robots móviles:</strong>
+                            no se encuentran fijados en un punto físico y tienen la capacidad de moverse.
+                            Un ejemplo común hoy en día de este tipo de robot son los vehículos guiados automáticamente,
+                            que son un tipo de robots móviles que sigue marcas o cables puestos en tierra o utilizan
+                            otros
+                            sistemas como el láser para seguir un camino determinado.
+                        </li>
+
+                        <li class="robots-list__item robots-list__item--icon">
+                            <strong>Robots industriales:</strong>
+                            es el tipo de robot más relevante de nuestros tiempos. Se trata de una máquina provista de
+                            mecanismos
+                            y dispositivos que la capacitan para realizar automáticamente determinadas operaciones
+                            industriales que
+                            intervienen en el proceso de fabricación.
+                        </li>
+
+                        <li class="robots-list__item robots-list__item--icon">
+                            <strong>Clasificación de los robots según su uso:</strong>
+
+                            <ul class="robots-list robots-list--nested">
+                                <li class="robots-list__item">Robots domésticos y comerciales</li>
+
+                                <li class="robots-list__item">
+                                    Robots en la industria
+                                    <ul class="robots-list robots-list--nested">
+                                        <li class="robots-list__item">Automovilística</li>
+                                        <li class="robots-list__item">Embalaje</li>
+                                        <li class="robots-list__item">Electrónica</li>
+                                    </ul>
+                                </li>
+
+                                <li class="robots-list__item">Vehículos automáticos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            Trabajo realizado por Jessica Trinidad Freitas Joaquim · Asignatura: Diseño de interfaces web
+        </div>
+    </footer>
+
+</body>
+
+</html>
