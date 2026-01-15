@@ -338,9 +338,6 @@ a:focus-visible {
     font-size: 0.9rem;
 }
 
-/* =========================
-   FOOTER
-   ========================= */
 .footer {
     background: var(--color-black);
     color: #fff;
@@ -349,9 +346,6 @@ a:focus-visible {
     font-size: 0.85rem;
 }
 
-/* =========================
-   RESPONSIVE
-   ========================= */
 @media (max-width: 600px) {
     .page__title {
         font-size: 2.2rem;
